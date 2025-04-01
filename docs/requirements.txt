@@ -1,0 +1,1 @@
+pygame==2.6.1  #biblioteca principal do jogo
