@@ -39,7 +39,8 @@ class Pitu(objeto_coletavel):
         self.rect.center = (x, y)
 
     def apply_effect(self, player):
-        player.velocity_x += 1
+        player.velocity_x += 2
+        player.velocity_y += 2
         print("velocidade aumentada")
 
 class Estrela(objeto_coletavel):

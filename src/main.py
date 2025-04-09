@@ -33,7 +33,7 @@ while running:
     pontuacao_rect = pontuacao.get_rect(center=(65,30))
     screen.blit(pontuacao, pontuacao_rect)
 
-    num = random.randint(1,100) # 0.33 % de chance de aparecer algum coletável a cada frame
+    num = random.randint(1,200) # 0.50 % de chance de aparecer algum coletável a cada frame
     object_position_x = random.randint(30, 380)
     object_position_y = random.randint(200, 580)
     if num == 1:
