@@ -25,7 +25,7 @@ O projeto foi desenvolvido utilizando a biblioteca Pygame e segue uma estrutura 
     - `config.py` → Configurações globais (resolução, FPS, etc)
     - `level.py` → Classe para criação do mapa principal
   - `docs/` → Documentação e relatórios
-  - `README.md` → Este arquivo
+  - `README.md`
 
 ## Capturas de Tela
 
@@ -58,6 +58,23 @@ O projeto foi desenvolvido utilizando a biblioteca Pygame e segue uma estrutura 
 - Organização do tempo para desenvolvimento
 - Versionamento de código 
 
+### Qual foi o maior erro cometido durante o projeto? 
+- Começar a criar a lógica do jogo de uma forma muito complexa, para o que era necessário para entrega do projeto
+### Como vocês lidaram com ele? 
+- Tivemos que apagar toda a parte da lógica e refazer de forma mais simples e eficiente
+
+### Qual foi o maior desafio enfrentado durante o projeto? 
+- Sem dúvida a organização do tempo, para desenvolver o projeto e equilibrar com as outras demandas da universidade.
+### Como vocês lidaram com ele?
+- Nós iniciamos o estudo e o desenvolvimento do projeto, no momento inicial que foi lançado a requisição, fizemos uma pausa durante a semana de avaliações e retornamos após a mesma, para finalizar o que ficou pendente.
+
+### Quais as lições aprendidas durante o projeto?
+- Fazer a lógica das atividades de forma simples e bem feita
+- Fazer de forma mais organizada o versionamento do código
+- Utilizar ferramentas de gerenciamento do grupo, para sabermos o que cada um está desenvolvendo
+- Sempre comunicar dificuldades enfrentadas, para que alguém possa ajudar o mais rápido possível
+- Ser sincero caso não saiba de algo e precisar de ajuda
+
 ## 🎮 Como Executar
 
 1. Clone o repositório:
@@ -68,7 +85,11 @@ git clone https://github.com/ibiapleo/aprendendo-pygame.git
 ```bash
 pip install pygame
 ```
-3. Rode o jogo:
+3. Navegue até a pasta src:
 ```bash
-python src/main.py
+cd .\src\
+```
+4. Rode o jogo:
+```bash
+python main.py
 ```
